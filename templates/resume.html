@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Yao Wang Resume</title>
+
+     <!-- Bootstrap -->
+    <link href="{{url_for('static', filename='css/bootstrap.min.css')}}" rel="stylesheet" type="text/css">
+    <!-- custom css file -->
+    <link href="{{url_for('static', filename='css/custom.css')}}" rel="stylesheet" type="text/css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="{{url_for('static', filename='favicon.ico')}}" type="image/x-icon">
+  </head>
+    
+  <body>
+    <!-- header -->
+    <div class="page-header">
+        <div class="container">
+            <div class="pull-left">
+                <h1>Yao Wang</h1>
+                <p><span class="glyphicon glyphicon-envelope"></span> superyaooo@gmail.com</p>
+            </div>
+            
+            <!-- rightside nav buttons -->
+            <ul class="list-inline pull-right">
+                <li><a class="btn btn-primary btn-circle" href="{{url_for('index')}}"><span class="glyphicon glyphicon-home"></span></br>Home</a></li>
+                <li><a class="btn btn-success btn-circle" href="{{url_for('projects')}}"><span class="glyphicon glyphicon-tree-conifer"></span><br>Projects</a></li>
+            </ul>
+        </div>
+    </div>
+            
+  
+    <!-- resume body -->
+    <div class="container">
+        <!-- 1st row -->
+        <div class="row">
+            <div class="col-md-3">
+				<h3>EDUCATION</h3>
+            </div>
+
+            <div class="col-md-6 col-sm-8">
+				<h4>Computer Science and Technology</h4>
+				<p>Bachelor of Engineering</p>
+                <hr>
+            </div>
+
+            <div class="col-md-3 col-sm-4">
+				<h4>Central China Normal University</h4>
+				<p>Wuhan, China
+                <br>2004 - 2008</p>
+            </div>
+
+            <div class="col-md-6 col-md-offset-3 col-sm-8">
+				<h4>English</h4>
+				<p>Bachelor of Arts</p>
+            </div>
+
+            <div class="col-md-3 col-sm-4">
+				<h4>Huazhong University of Science and Technology</h4>
+				<p>Wuhan, China
+                <br>2004 - 2008</p>
+            </div>
+
+        </div>
+        
+        <!-- 2nd row -->
+        <div class="row">
+				<div class="col-md-3">
+				    <h3>EXPERIENCE</h3>
+				</div>
+
+				<div class="col-md-6 col-sm-8">
+				    <h4>ESL Teacher</h4>
+				    <p>Taught academic English to prepare international students for college education.
+                    <br>Classes include: Academic Writing, Listening/ Speaking, Reading, Grammar.
+                    <br>Developed lesson plans to meet an intensive English program.
+                    <br>Developed weekly tests to evaluate student performance.</p>
+                    <hr>
+				</div>
+
+				<div class="col-md-3 col-sm-4">
+				    <h4>The Language Company</h4>
+				    <p>Kirksville, MO
+                    <br>2012 - 2014</p>
+				</div>
+
+				<div class="col-md-6 col-md-offset-3 col-sm-8">
+				    <h4>Education Supervisor</h4>
+				    <p>In charge of the Education Department of Hankou center, Wuhan Branch.
+                    <br>Assigned work to sub-ordinates including Teaching Assistant, Tutors, ESL Teachers.
+                    <br>Organized teaching seminars to improve Education Staff's teaching ability.
+                    <br>Accomplished Monthly R & R (Renew and Referral) missions.
+                    <br>Trained IELTS and TOEFL teachers.
+                    <br>As an English teacher, I also developed many lessons involving IELTS and business English.</p>
+                    <hr>
+				</div>
+
+				<div class="col-md-3 col-sm-4">
+				    <h4>Web International English</h4>
+				    <p>Wuhan, China
+                    <br>2010 - 2012</p>
+				</div>
+
+				<div class="col-md-6 col-md-offset-3 col-sm-8">
+				    <h4>English Translator</h4>
+				    <p>Translated construction documents including 'American Standard' and technology manuals on bridge construction, telecom, pavement construction, construction sites, contracts, etc.</p>
+                    <br>
+				</div>
+
+				<div class="col-md-3 col-sm-4">
+				    <h4>Wuhan Lafeiya Technology Consulting Firm</h4>
+				    <p>Wuhan, China
+                    <br>2009</p>
+				</div>
+
+        </div>
+                
+        
+        <!-- 3rd row -->
+        <div class="row">
+				<div class="col-md-3">
+				    <h3>SKILLS</h3>
+				</div>
+
+				<div class="col-md-6 col-sm-8">
+				    <h4>Language Skills</h4>
+				    <p>Mandarin Chinese: Native Speaker
+                    <br>English: Advanced in Translating Level. Business Spoken Advanced</p>
+                    <hr>
+				</div>
+
+				<div class="col-md-6 col-md-offset-3 col-sm-8">
+				    <h4>Programming skills</h4>
+				    <p>Python, Flask, HTML & CSS, JavaScript</p>
+				</div>
+        </div>
+    </div>
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+  </body>
+</html>

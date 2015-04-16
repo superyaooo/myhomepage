@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Yao Wang Homepage</title>
+
+    <!-- Bootstrap -->
+    <link href="{{url_for('static', filename='css/bootstrap.min.css')}}" rel="stylesheet" type="text/css">
+    <!-- custom css file -->
+    <link href="{{url_for('static', filename='css/custom.css')}}" rel="stylesheet" type="text/css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="{{url_for('static', filename='favicon.ico')}}" type="image/x-icon">
+  </head>
+    
+    
+  <body>
+    
+    <div class="container">
+      <div class="jumbotron text-center">
+            <div id="profile-pic">
+                <img src="static/img/headpic.jpg" class="img-circle">  
+            </div>
+          
+            <div>
+                <p>My name is Yao Wang. I live in Columbia, Missouri, USA. </p>
+                <p>I like hiking, yoga, and translating Classical Chinese literature. </p>
+                <p>In 2014, I decided to change my career and become a programmer. </p>
+                <a href="#contact" data-toggle="modal" class="btn btn-danger"><span class="glyphicon glyphicon-envelope"></span> Contact me</a>
+            </div>
+      </div>
+      
+      
+      <div class="row text-center">
+            <div class="col-sm-6">
+                <a href="{{url_for('resume')}}" class="btn btn-info btn-circle"><span class="glyphicon glyphicon-briefcase"></span></br>Resume</a>
+            </div>    
+                
+            <div class="col-sm-6">
+                <a href="{{url_for('projects')}}" class="btn btn-success btn-circle"><span class="glyphicon glyphicon-tree-conifer"></span></br>Projects</a>
+            </div>
+      </div>
+        
+    </div>
+      
+      
+      
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- contact modal -->
+    <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="glyphicon glyphicon-pencil"></span><h4>For general inquiries:</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Email me at <a href="mailto:superyaooo@gmail.com">superyaooo@gmail.com</a></p>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary" data-dismiss="modal">close</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of contact modal -->
+
+    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+  </body>
+</html>

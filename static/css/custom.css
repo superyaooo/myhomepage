@@ -1,0 +1,59 @@
+.jumbotron {
+    background-color: transparent;
+    
+}
+
+.jumbotron p {
+    margin: 0px;
+    font-size: 17px;
+}
+
+#profile-pic {
+    padding-bottom: 7px;
+}
+
+.img-circle {
+    height: 150px;
+    width: 120px;
+}
+
+
+.btn-circle {
+    width: 100px;
+    height: 100px;
+    font-size: 17px;
+    font-family: Tahoma, Geneva, sans-serif;
+    padding: 26px 13px;
+    line-height: 1;
+    border-radius: 50%;
+    transition: all 0.3s ease 0s;
+    overflow: hidden;
+}
+
+.btn-circle:hover {
+    transform: scale(1.1);
+}
+
+.page-header {
+    margin-top: 0px;
+    padding-top: 16px;
+   
+}
+
+body {
+    padding-bottom: 70px;
+}
+
+.linkpic {
+    height: 300px;
+    width: 300px;
+    border-radius: 5%;
+    border: solid #ded3d4 7px;
+    transition: all 0.3s ease 0s;
+    overflow: hidden;
+}
+
+.linkpic:hover {
+    transform: scale(1.1);
+}
+
