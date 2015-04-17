@@ -5,5 +5,5 @@ if sys.executebale != INTERP:
 sys.path.append(os.getcwd())
 
 
-sys.path.append('app')
-from app.app import app as application
+sys.path.append('myhomepage')
+from app import app as application
