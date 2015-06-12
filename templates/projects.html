@@ -19,13 +19,13 @@
     <!-- header -->
     <div class="page-header">
         <div class="container">
-            <div class="pull-left">
+            <div class="pull-left" id="project-left">
                 <h1>{ My Projects }</h1>
                 
             </div>
             
             <!-- rightside nav buttons -->
-            <ul class="list-inline pull-right">
+            <ul class="list-inline pull-right" id="project-right">
                 <li><a class="btn btn-primary btn-circle" href="{{url_for('index')}}"><span class="glyphicon glyphicon-home"></span></br>Home</a></li>
                 <li><a class="btn btn-info btn-circle" href="{{url_for('resume')}}"><span class="glyphicon glyphicon-briefcase"></span><br>Resume</a></li>
             </ul>
@@ -45,7 +45,7 @@
             </div>
             
             <div class="col-sm-6 text-center">
-                <h3>{ Easy Chinese Cooking }</h3>
+                <h3>{ Easy Chinese Kitchen }</h3>
                 <a href="{{url_for('easychinesecooking')}}">
                     <img class="linkpic" src="static/img/IMG_1209.JPG">
                 </a>
