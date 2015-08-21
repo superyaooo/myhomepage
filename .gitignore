@@ -3,3 +3,5 @@ passenger_wsgi.py
 *.exe
 *.pyc
 desktop.ini
+*.DS_Store
+templates/easychinesekitchen.html
