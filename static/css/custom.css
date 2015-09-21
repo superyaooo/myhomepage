@@ -17,6 +17,26 @@
     width: 120px;
 }
 
+.media-logo {
+    padding: 5px;
+}
+
+.media-logo:hover {
+    color: #005580;
+}
+
+.github-logo {
+    color: black;
+}
+
+.email-btn {
+    border: solid black 1px;
+    color: black;
+}
+
+.email-btn:hover {
+    background-color:#ced9cc;
+}
 
 .btn-circle {
     width: 100px;
@@ -76,6 +96,25 @@ body {
     font-size: 21px;
     font-family: Arial, sans-serif;
 }
+
+/* footer */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 70px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 70px;
+  background-color: inherit;
+}
+/*end footer*/
 
 @media screen and (max-width: 499px) and (min-width: 341px) {
 

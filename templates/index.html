@@ -13,6 +13,8 @@
     <link href="{{url_for('static', filename='css/custom.css')}}" rel="stylesheet" type="text/css">
     <!-- favicon -->
     <link rel="shortcut icon" href="{{url_for('static', filename='favicon.ico')}}" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   </head>
 
 
@@ -24,12 +26,20 @@
                 <img src="static/img/headpic.jpg" class="img-circle">
             </div>
 
-            <div>
-                <p>My name is Yao Wang. I live in Columbia, Missouri, USA. </p>
-                <p>I like hiking, yoga, and translating Classical Chinese literature. </p>
-                <p>In 2015, I changed my career and became a happy programmer. </p>
-                <a href="#contact" data-toggle="modal" class="btn btn-danger"><span class="glyphicon glyphicon-envelope"></span> Contact me</a>
-            </div>
+            <p>My name is Yao Wang. I live in Columbia, Missouri, USA. </p>
+            <p>I like hiking, yoga, and translating Classical Chinese literature. </p>
+            <p>In 2015, I changed my career and became a happy programmer. </p>
+
+          
+           <p>
+                <a href="#contact" data-toggle="modal" class="btn email-btn"> <i class="fa fa fa-envelope fa-lg"></i> Contact me</a>
+                <a href="https://www.linkedin.com/in/wangyaooo" class="btn btn-lg media-logo"> <i class="fa fa-linkedin-square fa-2x"></i> </a>
+                <a href="https://github.com/superyaooo" class="btn btn-lg media-logo github-logo"> <i class="fa fa-github fa-2x"></i> </a>
+                <a href="https://twitter.com/YaoWDev" class="btn btn-lg media-logo"> <i class="fa fa-twitter-square fa-2x"></i> </a>
+            
+          </p>
+            
+            
       </div>
 
 
@@ -45,7 +55,12 @@
 
     </div>
 
-
+    <footer class="footer text-center">
+        <div class="container">
+            <hr>
+            <p>© 2015 yaowangdev.com, all rights reserved.</p>
+        </div>
+    </footer>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
