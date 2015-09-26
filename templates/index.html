@@ -87,12 +87,8 @@
     <!-- tooltip -->
     <script>
     $(document).ready(function(){
-        $('[data-toggle="tooltip"]').tooltip();  
-        
-        $('a').on('click touchend', function(e){
-            var el=$(this);
-            var link=el.attr('href');
-            window.location=link;
+        if(!('ontouchstart' in window)){
+            $('[data-toggle="tooltip"]').tooltip();  
         };
     });
     </script>
