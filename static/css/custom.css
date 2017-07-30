@@ -1,39 +1,26 @@
-.jumbotron {
-    background-color: transparent;
-
-}
+.jumbotron { background-color: transparent; }
 
 .jumbotron p {
     margin: 0px;
     font-size: 17px;
 }
 
-#profile-pic {
-    padding-bottom: 7px;
-}
+#profile-pic { padding-bottom: 7px; }
 
 .img-circle {
     height: 150px;
     width: 120px;
 }
 
-.media-logo {
-    padding: 5px;
-}
+.media-logo { padding: 5px; }
+.media-logo:hover { color: #005580; }
 
-.media-logo:hover {
-    color: #005580;
-}
-
-.github-logo {
-    color: black;
-}
+.github-logo { color: black; }
 
 .email-btn {
     border: solid black 1px;
     color: black;
 }
-
 
 .btn-circle {
     width: 100px;
@@ -47,9 +34,7 @@
     overflow: hidden;
 }
 
-.btn-circle:hover {
-    transform: scale(1.1);
-}
+.btn-circle:hover { transform: scale(1.1); }
 
 .page-header {
     margin-top: 0px;
@@ -57,12 +42,10 @@
 
 }
 
-body {
-    padding-bottom: 70px;
-}
+body { padding-bottom: 70px; }
 
 .linkpic {
-    height: 300px;
+    height: auto;
     width: 300px;
     max-width: 100%;
     border-radius: 5%;
@@ -71,9 +54,7 @@ body {
     overflow: hidden;
 }
 
-.linkpic:hover {
-    transform: scale(1.1);
-}
+.linkpic:hover { transform: scale(1.1); }
 
 #cooking {
     background: url("../img/coffee.jpg") no-repeat center center fixed;
@@ -113,120 +94,50 @@ body {
 }
 /*end footer*/
 
-@media screen and (max-width: 499px) and (min-width: 341px) {
+@media screen and (max-width: 560px) {
+    .link-p { word-wrap: break-word; }
 
-    #nav-right {
-        padding-top: 20px;
+    .right-bar { display: none; }
+
+    .left-bar { width: 100%; }
+    .left-bar h3 { font-size: 20px; }
+    .left-bar h4 { font-size: 18px; }
+    .left-bar p { font-size: 16px; }
+
+    .nav-left, .nav-right {
+        width: 100%;
+        text-align: center;
     }
 
-    #nav-right .btn-circle {
-        width: 60px;
-        height: 60px;
+    .nav-right {
+        /*flex box*/
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .nav-right .btn-circle {
+        width: 75px;
+        height: 75px;
         border-radius: 50%;
-        font-size: 11px;
-        padding: 12px 5px;
+        font-size: 13px;
+        padding: 17px 8px;
         line-height: 1;
     }
-
-    .link-p {
-        word-wrap: break-word;
-    }
-
-    .right-bar {
-        display: none;
-    }
-
-    .left-bar {
-        width: 100%;
-    }
-
-    .left-bar h3 {
-        font-size: 20px;
-    }
-
-    .left-bar h4 {
-        font-size: 18px;
-    }
-
-    .left-bar p {
-        font-size: 16px;
-    }
-
-    #project-left {
-        width: 100%;
-        text-align: center;
-    }
-
-    #project-right {
-        width: 100%;
-        text-align: center;
-    }
 }
 
-@media screen and (max-width: 340px) {
-
-    #nav-right {
-        padding-top: 20px;
-    }
-
-    #nav-right .btn-circle {
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        font-size: 10px;
-        padding: 10px 4px;
-        line-height: 0.8;
-    }
-
-    .link-p {
-        word-wrap: break-word;
-    }
-
-    .right-bar {
-        display: none;
-    }
-
-    .left-bar {
-        width: 100%;
-    }
-
-    .left-bar h3 {
-        font-size: 20px;
-    }
-
-    .left-bar h4 {
-        font-size: 18px;
-    }
-
-    .left-bar p {
-        font-size: 16px;
-    }
-
-    #project-left {
-        width: 100%;
-        text-align: center;
-    }
-
-    #project-right {
-        width: 100%;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 767px) and (min-width: 500px) {
-    .right-bar h4 {
-        font-size: 14px;
-    }
-
-    .right-bar p {
-        font-size: 11px;
-    }
+@media screen and (max-width: 767px) and (min-width: 561px) {
+    .right-bar h4 { font-size: 14px; }
+    .right-bar p { font-size: 11px; }
 }
 
 @media screen and (max-width: 767px) {
-    #index-button a {
-        margin: 2px;
-    }
+    #index-button a { margin: 2px; }
 }
 
 @media screen and (max-width: 300px) {
@@ -237,5 +148,4 @@ body {
         font-size: 17px;
         font-family: Arial, sans-serif;
     }
-
 }

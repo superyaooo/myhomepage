@@ -17,9 +17,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   </head>
 
-
   <body>
-
     <div class="container">
       <div class="jumbotron text-center">
             <div id="profile-pic">
@@ -37,9 +35,7 @@
                 <a href="https://github.com/superyaooo" class="btn btn-lg media-logo github-logo" data-toggle="tooltip" data-placement="bottom"  title="Github"> <i class="fa fa-github fa-2x"></i></a>
                 <a href="https://twitter.com/YaoWDev" class="btn btn-lg media-logo" data-toggle="tooltip" data-placement="bottom"  title="Twitter"> <i class="fa fa-twitter-square fa-2x"></i></a>
             </p>
-
       </div>
-
 
       <div class="row text-center" id="index-button">
             <div class="col-sm-4">
@@ -47,11 +43,11 @@
             </div>
 
             <div class="col-sm-4">
-                <a href="http://blog.yaowangdev.com" class="btn btn-warning btn-circle"><span class="glyphicon glyphicon-fire"></span></br>Blog</a>
+                <a href="{{url_for('projects')}}" class="btn btn-success btn-circle"><span class="glyphicon glyphicon-tree-conifer"></span></br>Projects</a>
             </div>
 
             <div class="col-sm-4">
-                <a href="{{url_for('projects')}}" class="btn btn-success btn-circle"><span class="glyphicon glyphicon-tree-conifer"></span></br>Projects</a>
+                <a href="http://blog.yaowangdev.com" class="btn btn-warning btn-circle"><span class="glyphicon glyphicon-fire"></span></br>Blog</a>
             </div>
       </div>
 
@@ -63,7 +59,6 @@
             <p>© 2015 - 2017 yaowangdev.com, all rights reserved.</p>
         </div>
     </footer>
-
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
