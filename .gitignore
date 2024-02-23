@@ -4,4 +4,6 @@ passenger_wsgi.py
 *.pyc
 desktop.ini
 .DS_Store
+.vscode
+
 templates/easychinesekitchen.html
