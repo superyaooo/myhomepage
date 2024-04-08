@@ -5,5 +5,3 @@ passenger_wsgi.py
 desktop.ini
 .DS_Store
 .vscode
-
-templates/easychinesekitchen.html
