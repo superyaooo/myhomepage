@@ -5,11 +5,14 @@
     font-size: 17px;
 }
 
-#profile-pic { padding-bottom: 7px; }
+#profile-pic { 
+    padding-bottom: 15px; 
+}
 
 .img-circle {
-    height: 150px;
-    width: 120px;
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
 }
 
 .media-logo { padding: 5px; }
