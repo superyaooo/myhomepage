@@ -15,6 +15,18 @@
     object-fit: cover;
 }
 
+#poop-emoji {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#poop-emoji img {
+    height: 300px;
+    width: auto;
+}
+
 .media-logo { padding: 5px; }
 .media-logo:hover { color: #005580; }
 
